@@ -5,13 +5,19 @@
     margin-right: auto;
     position: relative;
     display: flex;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+    margin-top: 1.4rem;
+    margin-bottom: 1.4rem;
     height: 45px;
     border-radius: .5rem;
     padding-left: 5px;
 }
 .sliderImage{
+    overflow: auto;
+    position: relative;
     background-image: url('../public/img/backtest3.jpg');
-    object-fit: contain;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0 -350px;
 }
+
+

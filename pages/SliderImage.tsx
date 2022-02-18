@@ -17,15 +17,14 @@ position: relative;
 height: 100%;
 padding-top: 1.7rem;
 padding-bottom: 1.7rem;
-padding-left: 6rem;
 `
 
 const SliderForm = styled.div`
 background-color: white;
-width: 65%;
+width: 45%;
 border-radius: .3rem;
-padding-top: 1rem;
-padding-bottom: 1rem;
+padding-top: .6rem;
+padding-bottom: .6rem;
 padding-left: 2rem;
 padding-right: 2rem;
 justify-content: center;
@@ -34,7 +33,7 @@ margin: auto;
 
 const Title = styled.h1`
 font-size: 2.8rem;
-font-weight: 500;
+font-weight: 400;
 text-align: center;
 margin: 0;
 padding: 0;
@@ -48,7 +47,7 @@ font-size: 3rem;
 margin: 0;
 padding: 0;
 margin-bottom: 2rem;
-color: #2F6DDF;
+color: #1FADAF;
 `
 
 const Continue = styled.button`
